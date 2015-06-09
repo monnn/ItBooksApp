@@ -23,7 +23,7 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:22.1.1'
 
-    compile files('libs/gson-2.2.4.jar', 'libs/gson-2.2.4-javadoc.jar', 'libs/gson-2.2.4-javadoc.jar')
+    compile 'com.mcxiaoke.volley:library-aar:1.0.1'
+    compile 'com.google.code.gson:gson:2.3.1'
 
-    compile files('libs/volley.jar')
 }

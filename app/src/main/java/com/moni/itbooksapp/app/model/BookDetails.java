@@ -1,6 +1,5 @@
 package com.moni.itbooksapp.app.model;
 
-//import com.google.gson.annotations.SerializedName;
 
 import com.google.gson.annotations.SerializedName;
 
