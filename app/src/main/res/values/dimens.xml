@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="grid_item_heigth">140dp</dimen>
+    <dimen name="grid_item_width">110dp</dimen>
+    <dimen name="book_cover_title_margin">3dp</dimen>
+    <dimen name="book_cover_title_text_size">15sp</dimen>
+    <dimen name="book_cover_details_item_width">150dp</dimen>
+    <dimen name="book_cover_details_item_height">180dp</dimen>
+    <dimen name="book_details_download_button_margin_left">39dp</dimen>
+    <dimen name="book_cover_details_margin_top">25dp</dimen>
+    <dimen name="book_details_exp_list_margin_top">25dp</dimen>
+    <dimen name="book_details_header_text_size">15sp</dimen>
+    <dimen name="book_details_value_text_size">15sp</dimen>
+    <dimen name="book_grid_item_margin_top">20dp</dimen>
+    <dimen name="download_button_margin_top">162dp</dimen>
+</resources>
