@@ -8,7 +8,7 @@ import android.widget.ImageView;
 
 import com.moni.itbooksapp.R;
 import com.moni.itbooksapp.app.net.BookDetailsFetcher;
-import com.moni.itbooksapp.net.WebFetcher;
+import com.moni.itbooksapp.abstractapp.WebFetcher;
 
 
 /**
@@ -43,9 +43,6 @@ public class BookDetailsActivity extends AppCompatActivity {
         String clickedBookId = bundle.getString(BooksGridActivity.BOOK_COVER_ID);
         String clickedBookCoverUrl = bundle.getString(BooksGridActivity.BOOK_COVER_IMAGE_URL);
 
-        /**
-         * Load book cover thumbnail for the book details view
-         */
         imageLoader
                 .withImageView(bookCoverView)
                 .withImageUrl(clickedBookCoverUrl)

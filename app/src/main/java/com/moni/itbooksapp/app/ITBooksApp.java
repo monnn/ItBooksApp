@@ -2,7 +2,7 @@ package com.moni.itbooksapp.app;
 
 import android.app.Application;
 
-import com.moni.itbooksapp.net.WebFetcher;
+import com.moni.itbooksapp.abstractapp.WebFetcher;
 
 
 /**

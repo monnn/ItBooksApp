@@ -10,7 +10,7 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.moni.itbooksapp.app.adapter.BookCoverGridAdapter;
 import com.moni.itbooksapp.app.model.BookGridItem;
-import com.moni.itbooksapp.net.WebFetcher;
+import com.moni.itbooksapp.abstractapp.WebFetcher;
 
 import java.util.Arrays;
 import java.util.List;

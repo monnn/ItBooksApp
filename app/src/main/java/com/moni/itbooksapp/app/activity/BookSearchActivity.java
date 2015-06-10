@@ -70,7 +70,6 @@ public class BookSearchActivity extends AppCompatActivity {
 
             @Override
             public boolean onQueryTextChange(String newQuery) {
-                //doSearch(newQuery);
                 return true;
             }
         };

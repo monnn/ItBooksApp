@@ -22,9 +22,6 @@ public class BooksGridActivity extends AppCompatActivity {
 
     public static final String BOOK_COVER_IMAGE_URL = "BOOK_COVER_IMAGE_URL";
 
-    public static final String IT_EBOOKS_API_BASE_URL = "http://it-ebooks-api.info/v1/search/";
-
-
     private int currentPage = 1;
 
     private String bookSearchUrl;
@@ -76,53 +73,4 @@ public class BooksGridActivity extends AppCompatActivity {
         });
     }
 
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        MenuInflater inflater = getMenuInflater();
-//        inflater.inflate(R.menu.menu, menu);
-//
-//        SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
-//        MenuItem searchItem = menu.findItem(R.id.action_search);
-//        SearchView searchView = (SearchView) MenuItemCompat.getActionView(searchItem);
-//
-//        searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
-//        searchView.setIconifiedByDefault(true);
-//
-//        SearchView.OnQueryTextListener textChangeListener = new SearchView.OnQueryTextListener() {
-//            @Override
-//            public boolean onQueryTextSubmit(String query) {
-//                doSearch(query);
-//                return true;
-//            }
-//
-//            @Override
-//            public boolean onQueryTextChange(String newQuery) {
-//                doSearch(newQuery);
-//                return true;
-//            }
-//        };
-//
-//        searchView.setOnQueryTextListener(textChangeListener);
-//
-//        return super.onCreateOptionsMenu(menu);
-//    }
-//
-//    @Override
-//    public void onNewIntent(Intent intent) {
-//        setIntent(intent);
-//        handleIntent(intent);
-//    }
-//
-//    private void handleIntent(Intent intent) {
-//        if (Intent.ACTION_SEARCH.equals(intent.getAction())) {
-//            String query = intent.getStringExtra(SearchManager.QUERY);
-//            doSearch(query);
-//        }
-//    }
-
-    private void doSearch(String query) {
-        bookGridItemsFetcher
-                .withUrl(IT_EBOOKS_API_BASE_URL + query)
-                .execute();
-    }
 }

@@ -1,4 +1,4 @@
-package com.moni.itbooksapp.net;
+package com.moni.itbooksapp.abstractapp;
 
 import android.app.ActivityManager;
 import android.content.Context;

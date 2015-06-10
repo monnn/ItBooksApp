@@ -13,7 +13,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.moni.itbooksapp.app.adapter.BookDetailsExpandableListAdapter;
 import com.moni.itbooksapp.app.model.BookDetails;
-import com.moni.itbooksapp.net.WebFetcher;
+import com.moni.itbooksapp.abstractapp.WebFetcher;
 
 
 /**

@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.moni.itbooksapp.R;
 import com.moni.itbooksapp.app.model.BookGridItem;
-import com.moni.itbooksapp.net.WebFetcher;
+import com.moni.itbooksapp.abstractapp.WebFetcher;
 
 import java.util.List;
 

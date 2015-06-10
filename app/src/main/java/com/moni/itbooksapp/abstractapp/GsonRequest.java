@@ -1,4 +1,4 @@
-package com.moni.itbooksapp.net;
+package com.moni.itbooksapp.abstractapp;
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.NetworkResponse;
@@ -11,7 +11,6 @@ import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
 
 import java.io.UnsupportedEncodingException;
-import java.lang.reflect.Method;
 
 /**
  * Created by Monica Shopova
