@@ -41,13 +41,7 @@ public class WebFetcher {
             throw new IllegalStateException("Volley RequestQueue not initialized!");
         }
     }
-    /**
-     * Returns instance of imageLoader initialized with {@see FakeImageCache} which effectively means
-     * that no memory caching is used. This is useful for images that you know that will be show
-     * only once.
-     *
-     * @return
-     */
+
     public static ImageLoader getImageLoader() {
         if (imageLoader != null) {
             return imageLoader;
@@ -156,8 +150,6 @@ public class WebFetcher {
 
             return this;
         }
-
-
 
         public abstract Response.Listener<T> createSuccessListener();
 
