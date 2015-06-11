@@ -12,7 +12,6 @@ import android.widget.SearchView;
 
 import com.moni.itbooksapp.R;
 
-
 /**
  * Created by Monica Shopova
  * monika.shopova@gmail.com
